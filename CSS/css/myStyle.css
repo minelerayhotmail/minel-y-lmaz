@@ -1,0 +1,102 @@
+body {
+    background-color: lightblue;
+    /* background-image: url("../img/aarkaplan.jpg");  arka plan resim ekleme. */
+    background-repeat: no-repeat; /* resmin boyutunu sabit tutma. ekranı büyüttükçe resmin de büyümemesi. */
+    /* background-position: right top; resmi sağ üst köşeye hizalama.*/
+    
+
+}
+h1 {
+    color: navy;  /*color name ile renk tanımlama*/
+    color: #bd2222; /*HEX value ile renk tanımlama*/
+    color: rgb (216, 106, 38); /*RGB value ile renk tanımlama*/
+    /* opacity: 0.3; yazı sönükleştirme-şeffaflaştırma*/
+    text-shadow: 2px 2px 5px grey;
+}
+
+.kenar {
+
+    border-style: solid;
+    border-width: 6px;
+    border-color: #bd2222;
+
+    border-left-color: blue;
+    border-left-width: 15px;
+
+    border: 10px solid green;
+    border-bottom: 20px dotted mediumvioletred;
+
+    border-radius: 20px;
+    border-bottom-right-radius: 50px;
+
+    /* margin: 30px; dış taraf içimn boşlu oluşturma.*/
+    margin-top: 30px;
+    padding: 20px;
+    padding-bottom: 40px; /*iç taraftan boşluk bırakma. */
+
+    height: 300px;
+    width: 200px; /*genişlik*/
+    width: 50%;
+
+
+
+    /* 
+    bottom: alt kenar
+    top: üst kenar
+    right: sağ kenar
+    left: sol kenar 
+    */
+
+}
+
+.texstyle {
+    color: blue;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: maroon;
+    text-transform: capitalize;
+
+    letter-spacing: 2px;
+    line-height: 30px;
+    word-spacing: 5px;
+
+    font-family: "trirong";
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 18px;
+
+
+}
+
+/* .link {
+    color: #bd2222;
+
+} */
+
+/* imleç üzerine geldiğinde çalışır. */
+a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+
+/* tıklandığı anda çalışır. */
+:active{
+    color: red;
+}
+
+/* link adresi daha önceden ziyaret edildi ise çalışır. */
+ /* a:visited{
+    color: green;
+ } */
+
+ a:hover , a:active{
+    background-color: red;
+ }
+.unorderedList{
+    list-style-type: square;
+    /* list-style-image: url('../img/rightArrow.png');*/
+}
+
+.orderedList{
+    list-style-type: lower-alpha;
+}
